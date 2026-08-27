@@ -1,0 +1,1 @@
+python main.py --normal_digit 0 --n_epochs 1000 --batch_size 200 --auxiliary_digit 1 --latent_dim 100 --name fmnist --gamma_p 0.1 --gamma_l 0.05 --k 3 --p_a_max 0.1 --p_a_0 0.05 --dataset F-MNIST --dir /FMNIST/summary// --dataset_ID 1 --pretrain --pretrain_n_epochs 150 --gpu 1
