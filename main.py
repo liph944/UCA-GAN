@@ -32,7 +32,7 @@ parser.add_argument("--latent_dim", type=int, default=100, help="dimensionality 
 parser.add_argument("--img_size", type=int, default=32, help="size of each image dimension")
 parser.add_argument("--channels", type=int, default=3, help="number of image channels")
 parser.add_argument("--normal_digit", type=int, default=0, help="noraml class") # 
-parser.add_argument("--auxiliary_digit", type=int, default=1, help="abnormal aviliable during training process") # 
+parser.add_argument("--auxiliary_digit", type=int, default=1, help="just seed now") # 
 parser.add_argument("--gpu", type=str, default='3', help="gpu_num")
 parser.add_argument("--dataset", type=str, default='MNIST', help="choice of dataset(CIFAR,F-MNIST,MNIST)")
 parser.add_argument("--dir", type=str, default='/summary//', help="save dir")
